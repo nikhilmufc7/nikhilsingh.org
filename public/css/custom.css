@@ -1,0 +1,102 @@
+.title{
+  /*color:#2980b9;*/
+  /*margin-bottom:20%;*/
+}
+.project-title{
+	font-size:larger;
+}
+
+.header{
+	margin-top:7%;
+}
+
+.links{
+  text-align:center;
+}
+
+#link-1{
+	display:none;
+}
+.link-2{
+  margin-left:0px;
+}
+.link-3{
+  margin-left:0px;
+}
+
+.prof-pic{
+	border-radius:50%;
+	height:275px;
+	width:275px;
+}
+.circle{
+	border-radius:50%;
+	max-width:200px;
+	max-height:200px;
+}
+.center-text{
+	text-align:center;
+}
+.mitre-img{
+	max-width:100%;
+	max-height:200px;
+	border-radius:50%;
+}
+#animation{
+	/*height: 100px;*/
+	min-height:200px;
+	/*width:100%;*/
+	/*min-width:100px;*/
+}
+
+.grey-section .columns{
+	height:auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+.grey-section p{
+	margin-bottom:5px;
+}
+.grey-section img{
+	max-width:100%;
+	max-height:100%;
+}
+
+a {
+	color:#26A65B;
+	/*color:#22333B;*/
+}
+
+a:hover{
+	color:#1BBC9B;
+	cursor: pointer;
+}
+
+.fancy-font{
+	font-family: "Bad Script", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gh-chart{
+	width:100%;
+}
+
+@media (min-width: 0px) {
+	.b{
+		display:none;
+	}
+}
+
+@media (min-width: 750px) {
+	.s{
+		display:none;
+	}
+	.b{
+		display:unset;
+	}
+	.east{
+		line-height: 275px;
+	}
+	.west {
+		line-height:275px;
+	}
+}
